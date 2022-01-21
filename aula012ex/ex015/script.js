@@ -4,7 +4,7 @@ function verificar() {
   var fano = window.document.getElementById('txtano')
   var res = document.querySelector('div#res')
   if (fano.value.length == 0 || fano.value > ano) {
-    window.alert('Digita essa poha direito krai')
+    window.alert('Digite corretamente')
   }
   else {
     var fsex = document.getElementsByName('radsex')

@@ -43,7 +43,7 @@ function analisar() {
 
 function finalizar() {
   if (valores.length == 0) {
-    window.alert('Adicione os números ai pnc')
+    window.alert('Adicione os números ai')
   } else {
     var tot = valores.length
     var men = valores[0]
@@ -66,7 +66,7 @@ function finalizar() {
   res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados </p>`
   res.innerHTML += `<p>O maior número foi ${mai} </p>`
   res.innerHTML += `<p>O menor número foi ${men} </p>`
-  res.innerHTML += `<p>Somando td, temo ${soma} </p>`
+  res.innerHTML += `<p>Somando td, temos ${soma} </p>`
   res.innerHTML += `<p>A media desses números é ${media} </p>`
 }
 

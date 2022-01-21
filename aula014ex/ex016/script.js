@@ -5,7 +5,7 @@ function contar() {
   var res = document.querySelector('div#res')
   //verificador de valores vazios
   if (ini.value.length == 0 || fim.value.length == 0 || pas.value.length == 0) {
-    window.alert('Coloca os números ai poha')
+    window.alert('Coloque os números ai')
     res.innerHTML = 'Impossível contar!'
   }
   else {
@@ -14,7 +14,7 @@ function contar() {
     let f = Number(fim.value)
     let p = Number(pas.value)
     if (p <= 0) {
-      window.alert('Passo errado burro! vo considerar 1')
+      window.alert('Passo errado! vo considerar 1')
       p = 1
     }
 
